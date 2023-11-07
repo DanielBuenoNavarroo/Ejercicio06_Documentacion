@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Creamos un item con 75dp de altura y anchura, y con la gravedad al centro -->
+    <item android:width="75dp" android:height="75dp" android:gravity="center">
+        <!-- La forma del item sera ovalada, lo que le dara forma de circulo -->
+        <shape android:shape="oval">
+            <!-- Stroke sirve para poner el borde, en este caso de 2dp -->
+            <stroke android:color="@color/cian" android:width="2dp" />
+            <!-- Solid para elegir el relleno -->
+            <solid android:color="@color/cianClaro"/>
+        </shape>
+    </item>
+    <!-- Creamos un item con 35dp de altura y anchura, y con la gravedad al centro -->
+    <item android:width="35dp" android:height="35dp" android:gravity="center">
+        <!-- Esta vez la forma sera rectangular para hacer el cuadrado -->
+        <shape android:shape="rectangle">
+            <!-- Solid para elegir el relleno -->
+            <solid android:color="@color/verde" />
+        </shape>
+    </item>
+</layer-list>

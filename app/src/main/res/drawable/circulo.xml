@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Creamos un item con 150dp de altura y anchura, y con la gravedad a centro -->
+    <item android:width="150dp" android:height="150dp" android:gravity="center">
+        <!-- La forma del item sera ovalada, lo que le dara forma de circulo -->
+        <shape android:shape="oval">
+            <!-- Stroke sirve para poner el borde, en este caso de 2dp -->
+            <stroke android:color="@color/cian" android:width="2dp" />
+            <!-- Solid para elegir el relleno -->
+            <solid android:color="@color/cianClaro"/>
+        </shape>
+    </item>
+</layer-list>
